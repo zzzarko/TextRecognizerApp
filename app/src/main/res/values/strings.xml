@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Text Recognizer</string>
+    <string name="delete">Delete</string>
+    <string name="speech">Speech</string>
+    <string name="find">Find</string>
+    <string name="copy">Copy</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_list">Add List</string>
+    <string name="dodaj_u_omiljene">Dodaj u omiljene</string>
+    <string name="kamera">Kamera</string>
+    <string name="galerija">Galerija</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

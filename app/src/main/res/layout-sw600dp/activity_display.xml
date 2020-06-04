@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:padding="10dp"
+    android:background="@drawable/gradient_2"
+    tools:context=".DisplayActivity">
+
+
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_below="@id/imageViewDetail"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/obr"
+        android:background="@drawable/custom_button"
+        android:text="@string/delete" />
+
+    <ImageView
+        android:id="@+id/imageViewDetail"
+        android:layout_width="380dp"
+        android:layout_height="227dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewDetail"
+        android:layout_width="561dp"
+        android:layout_height="166dp"
+        android:layout_below="@id/btnDelete"
+        android:layout_marginTop="114dp"
+        android:background="@drawable/tv_details"
+        android:padding="10dp"
+        android:scrollbars="vertical" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="582dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/btnDelete"
+        android:layout_marginTop="23dp"
+        android:height="32dp"
+        android:background="@drawable/edittext_round"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDetail"
+        android:layout_marginTop="208dp"
+        android:text="Reprodukuj" />
+
+    <Button
+        android:id="@+id/btnFind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="208dp"
+        android:layout_toRightOf="@id/btnSpeech"
+        android:text="Pronađi" />
+
+    <Button
+        android:id="@+id/btnCopy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDetail"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="208dp"
+        android:layout_toRightOf="@id/btnFind"
+        android:text="Kopiraj" />
+
+</RelativeLayout>
